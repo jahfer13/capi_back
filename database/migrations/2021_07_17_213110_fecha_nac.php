@@ -13,7 +13,7 @@ class FechaNac extends Migration
      */
     public function up()
     {
-        Schema::table('user_domicilio', function (Blueprint $table) {
+        Schema::table('user_domicilios', function (Blueprint $table) {
             $table->date('fecha_nacimento');
         });
     }

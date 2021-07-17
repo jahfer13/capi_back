@@ -7,5 +7,12 @@ use Illuminate\Database\Eloquent\Model;
 
 class user_domicilio extends Model
 {
-    use HasFactory;
+    // use HasFactory;
+    protected $fillable = [
+    'domicilio',
+    'numero_exterior',
+    'colonia',
+    'cp',
+    'ciudad',
+    'fecha_nacimiento'];
 }
