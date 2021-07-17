@@ -20,6 +20,7 @@ class CreateUserDomiciliosTable extends Migration
             $table->string('colonia');
             $table->string('cp');
             $table->string('ciudad');
+            $table->date('fecha_nacimento');
             $table->timestamps();
         });
     }
